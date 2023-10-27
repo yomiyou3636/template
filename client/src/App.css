@@ -4,8 +4,8 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(15, 1fr);
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(20, 1fr);
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -17,8 +17,8 @@
   background-color: rgb(24, 24, 24);
 margin-bottom:2px;
 margin-right: 2px;
-width: 4.9vw;
-height: 6.5vh;
+width: 3.2vw;
+height: 4.9vh;
   color: #fff;
   padding: 20px;
   text-align: center;

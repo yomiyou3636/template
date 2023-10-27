@@ -1,0 +1,71 @@
+.grid-container {
+  overflow: hidden;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: colorChange 4s alternate infinite;
+
+}
+
+.grid-item {
+  background-color: rgb(24, 24, 24);
+margin-bottom:2px;
+margin-right: 2px;
+width: 4.9vw;
+height: 6.5vh;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 2s; 
+}
+.grid-item:hover {
+  background-color: rgb(15, 206, 15); 
+  transition: background-color 0.005s;
+}
+
+#one{
+  animation: rotate1 4s linear infinite ;
+  box-shadow: 0 0 10px 1px blue , inset 0 0 20px 1px blue ;
+}
+#two{
+  animation: rotate2 4s linear infinite ;
+  box-shadow: 0 0 10px 1px rgb(3, 255, 3), inset 0 0 20px 1px rgb(3, 255, 3)
+}
+#three{
+  animation: rotate3 3s linear infinite ;
+  box-shadow: 0 0 10px 1px rgb(255, 255, 0), inset  0 0 20px 1px rgb(255, 255, 0) ;
+}
+
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotate3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+#but{
+  background-image: linear-gradient(to right,red, orange, yellow)
+}

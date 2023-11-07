@@ -1,8 +1,10 @@
+import Back from './back';
 const Sankelogin = () => {
 
   return (
     <>
     <div className="grid-container">
+      <Back />
     <div className='grid-item'></div>
       <div className="grid-item"></div>
       <div className="grid-item"></div>

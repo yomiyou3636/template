@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Back from './back';
 import purplebg from '../images/purlpe.jpg';
 
 const Purplelogin = () => {
@@ -14,9 +14,9 @@ document.getElementById('sign').style.fontSize='40px'
         document.getElementById('sign').style.fontSize='20px'
         document.getElementById('log').style.fontSize='40px'
             }
-    return (
+    return (<><Back />
 <div className='h-screen w-full bg-gradient-to-t from-indigo-950 via-indigo-900  to-indigo-950 flex justify-center items-center'>
-            <div className=' overflow-hidden w-[25%] h-[75%]  rounded-lg bg-cover bg-no-repeat bg-center pt-[70px] flex flex-col justify-start items-center' style={{ backgroundImage: `url(${purplebg})` }} >
+            <div className=' overflow-hidden w-[25%] h-[75%]  rounded-lg bg-cover bg-no-repeat bg-center pt-[4%] flex flex-col justify-start items-center' style={{ backgroundImage: `url(${purplebg})` }} >
 
 <h1 className='text-white text-[40px] font-sans font-bold cursor-pointer  transition-all duration-300 ease-in-out 'id='sign' onClick={hendlesignup}>Sign up</h1>
 <div className='w-[80%] min-h-[70%]  grid grid-rows-4 p-4 gap-3'>
@@ -34,8 +34,8 @@ document.getElementById('sign').style.fontSize='40px'
     <button className='bg-indigo-900 rounded-lg text-white text-[17px]'>Log in</button>
     </div>
 </div>
-            </div>
-        </div>
+            </div> 
+        </div></>
     );
 }
 

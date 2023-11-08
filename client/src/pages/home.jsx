@@ -6,13 +6,14 @@ import {BsReverseLayoutTextSidebarReverse} from 'react-icons/bs'
 import {BiArrowBack} from 'react-icons/bi'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BsImages} from 'react-icons/bs'
-import snakeloginimg from '../images/snake.PNG';
+import snakeloginimg from '../images/snake.png';
 import glowimg from '../images/glow.png';
 import bluesideimg from '../images/bluesidebar.PNG';
 import frameimg from '../images/frame.png';
 import imgviewwide from '../images/imgviewwide.PNG';
 import navgreen from '../images/navgreen.png';
 import purplesign from '../images/purplesign.png';   
+import movable from '../images/movable.PNG';   
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -47,6 +48,7 @@ const Home = () => {
 
   return (
     <div className='w-full h-screen bg-gray-900  flex'>
+     
       <div className='h-screen w-[20%] bg-gray-950 flex justify-center items-start  pl-5 rounded-r-lg flex-col gap-2'>
       <Link to='https://yomiyou.onrender.com' className=' flex w-[90%] h-[55px] justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BiArrowBack className='text-orange-400 text-xl' /> Finish Tour</Link>
        <hr className='w-[90%] border-[1px]  border-orange-400'/><br />
@@ -68,22 +70,24 @@ const Home = () => {
         {loginVisible && (
           <div id="login" className='w-full h-screen  grid grid-cols-3 grid-rows-2 gap-5 px-10 py-8'>
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${movable})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>    
+            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${snakeloginimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a background that have individual components that change color when hovered.</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/purplelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${purplesign})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
 
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/glowlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${glowimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>            
-           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/purplelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${purplesign})` }}></Link>
-              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
-           </div>            
-           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${purplesign})` }}></Link>
-              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
-           </div>            
+                      
+                   
           </div>
           
         )}

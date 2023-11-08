@@ -13,7 +13,7 @@ function Sidebarblue() {
   return (
     <div className='w-full h-screen bg-gradient-to-t  from-blue-950 to-blue-600'>
     <Back />  
-     <nav className='absolute group pb-3 grid gap-4 grid-rows-9 rounded-r-lg h-screen w-[8vw] backdrop-blur-lg backdrop-brightness-125	 bg-transparent  bg-white hover:w-[20vw] transition-all ease-in-out duration-500  pt-5 shadow-blue-500-lg '>
+     <nav className='absolute group pb-3 grid gap-4 grid-rows-9 rounded-r-lg h-screen w-[8vw] backdrop-blur-lg backdrop-brightness-125	 bg-transparent   hover:w-[20vw] transition-all ease-in-out duration-500  pt-5 shadow-blue-500-lg '>
 <div className='w-[90%] transition-all ease-in-out duration-500 hover:bg-black rounded-r-[40px] flex pl-5  justify-start items-center'>
     <div className='w-[50px] h-[50px] rounded-[50%] items-center justify-center flex bg-black'> <AiOutlineHome className='text-white text-3xl'/></div>
 

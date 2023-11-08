@@ -4,7 +4,7 @@ import {AiOutlineUnorderedList} from 'react-icons/ai'
 import {BiUser} from 'react-icons/bi'
 import {BiMessageRounded} from 'react-icons/bi'
 import {FiSettings} from 'react-icons/fi'
-
+import Back from './back';
 const Greensidebar = () => {
     const handleHome=()=>{
 document.getElementById('homebar').style.marginRight='-60%'
@@ -118,7 +118,7 @@ const handleSetting=()=>{
     document.getElementById('listpoint').style.display='none'
     
         }
-    return (
+    return (<><Back />
         <div className='w-full h-screen bg-slate-600'>
             <nav className='w-[6%] h-screen bg-slate-900 flex justify-center items-center '>
                 <div className='w-full h-[70%]  grid grid-rows-5 gap-2'>
@@ -144,7 +144,7 @@ const handleSetting=()=>{
                    </div>
                 </div>
             </nav>
-        </div>
+        </div></>
     );
 }
 

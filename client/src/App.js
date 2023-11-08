@@ -3,6 +3,9 @@ import Glowlogin from './pages/glowlogin';
 import Sidebarblue from './pages/sidebarblue';
 import Imageview from './pages/imageview';
 import Verimg from './pages/verimg';
+import Greensidebar from './pages/greensidebar';
+import Purplelogin from './pages/purplelogin';
+import Movingsignin from './pages/movingsignin';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
@@ -18,6 +21,9 @@ export default function App() {
           <Route path="/bluesidebar" element={<Sidebarblue />} />
           <Route path="/imageview" element={<Imageview />} />
           <Route path="/verimg" element={<Verimg />} />
+          <Route path="/greensidebar" element={<Greensidebar />} />
+          <Route path="/purplelogin" element={<Purplelogin />} />
+          <Route path="/movingsignin" element={<Movingsignin />} />
        
       </Routes>
     </BrowserRouter>

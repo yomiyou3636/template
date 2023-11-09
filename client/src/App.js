@@ -6,6 +6,9 @@ import Verimg from './pages/verimg';
 import Greensidebar from './pages/greensidebar';
 import Purplelogin from './pages/purplelogin';
 import Movingsignin from './pages/movingsignin';
+import Rotatingsignin from './pages/rotatingsignin';
+import Switchlogin from './pages/switchlogin';
+import Purplesidebar from './pages/purplesidebar';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
@@ -24,6 +27,10 @@ export default function App() {
           <Route path="/greensidebar" element={<Greensidebar />} />
           <Route path="/purplelogin" element={<Purplelogin />} />
           <Route path="/movingsignin" element={<Movingsignin />} />
+          <Route path="/rotatingsignin" element={<Rotatingsignin />} />
+          <Route path="/rotatingsignin" element={<Rotatingsignin />} />
+          <Route path="/switchlogin" element={<Switchlogin />} />
+          <Route path="/purplesidebar" element={<Purplesidebar />} />
        
       </Routes>
     </BrowserRouter>

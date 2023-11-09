@@ -12,6 +12,19 @@
   animation: colorChange 4s alternate infinite;
 
 }
+/* In your CSS file */
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.rotating-div {
+  animation: rotate 5s linear infinite; /* 5s duration and 'infinite' iteration */
+}
 
 
 .grid-item {

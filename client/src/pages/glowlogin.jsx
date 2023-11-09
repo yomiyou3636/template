@@ -7,8 +7,8 @@ const Glowlogin = () => {
           
             <div  className=' z-10 bg-black  absolute w-[25%] h-[55vh] rounded-[40%] flex pt-10 flex-col justify-start items-center gap-4'>
                 <p className='text-white font-bold text-3xl '>Log in</p>
-                <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />
-                <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />
+                <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 text-white border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />
+                <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 text-white border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />
                 
                 
                 <button id='but'  className='w-[90%] bg-green-400 rounded-[35px] h-[20%]  pl-4 text-xl text-white '  type="text" >Log In</button>

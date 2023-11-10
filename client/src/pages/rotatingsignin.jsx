@@ -4,7 +4,7 @@ const Rotatingsignin = () => {
     return (
         <><Back />
         <div className='w-full h-screen bg-gray-900 flex justify-center items-center rounded-lg'>
-            <div className=' overflow-hidden w-[30%] h-[70%] bg-gray-950 flex justify-center items-center'>
+            <div className=' overflow-hidden w-[30%] h-[70%] rounded-lg bg-gray-950 flex justify-center items-center'>
                 <div className='h-[1000px] w-[80%] rotating-div grid grid-rows-2'>
                 <div className='bg-gradient-to-r from-gray-950 to-pink-600 '></div>
                     <div className='bg-gradient-to-r from-pink-600 to-gray-950 '></div>

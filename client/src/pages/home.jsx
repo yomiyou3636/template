@@ -137,7 +137,7 @@ const Home = () => {
 {infoboxVisible && (
           <div id="login" className='w-full h-screen  grid grid-cols-3 grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/imageview" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${frameimg})` }}></Link>
+              <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${frameimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>

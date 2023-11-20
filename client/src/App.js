@@ -10,6 +10,7 @@ import Rotatingsignin from './pages/rotatingsignin';
 import Switchlogin from './pages/switchlogin';
 import Purplesidebar from './pages/purplesidebar';
 import Bluecard from './pages/bluecard';
+import Blacksidebar from './pages/blacksidebar';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/switchlogin" element={<Switchlogin />} />
           <Route path="/purplesidebar" element={<Purplesidebar />} />
           <Route path="/bluecard" element={<Bluecard />} />
+          <Route path="/blacksidebar" element={<Blacksidebar />} />
        
       </Routes>
     </BrowserRouter>

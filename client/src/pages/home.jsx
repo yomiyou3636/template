@@ -17,6 +17,8 @@ import movable from '../images/movable.PNG';
 import pinksignin from '../images/pinksignin.png'  
 import indigologin from '../images/indigologin.png'  
 import bluecard from '../images/bluecard.png'  
+import bluetoplogin from '../images/bluetoplogin.PNG'  
+import balcksidebar from '../images/balcksidebar.PNG'  
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -88,15 +90,16 @@ const Home = () => {
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/glowlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${glowimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
-           </div>            
+           </div>  
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/switchlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluetoplogin})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>           
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/rotatingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${pinksignin})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>            
-           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/switchlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${pinksignin})` }}></Link>
-              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
-           </div>            
+                      
                       
                    
           </div>
@@ -115,6 +118,10 @@ const Home = () => {
            </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/purplesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${indigologin})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
           

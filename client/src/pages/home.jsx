@@ -16,6 +16,7 @@ import purplesign from '../images/purplesign.png';
 import movable from '../images/movable.PNG'; 
 import pinksignin from '../images/pinksignin.png'  
 import indigologin from '../images/indigologin.png'  
+import bluecard from '../images/bluecard.png'  
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -49,7 +50,7 @@ const Home = () => {
   }
 
   return (
-    <div className='w-full h-screen bg-gray-900  flex'>
+    <div className='w-full h-screen bg-gray-900  flex overflow-hidden'>
      
       <div className='h-screen w-[20%] bg-gray-950 flex justify-center items-start  pl-5 rounded-r-lg flex-col gap-2'>
       <Link to='https://yomiyou.onrender.com' className=' flex w-[90%] h-[55px] justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BiArrowBack className='text-orange-400 text-xl' /> Finish Tour</Link>
@@ -137,7 +138,7 @@ const Home = () => {
 {infoboxVisible && (
           <div id="login" className='w-full h-screen  grid grid-cols-3 grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${frameimg})` }}></Link>
+              <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluecard})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
@@ -148,6 +149,7 @@ const Home = () => {
           </div>
         )}
       </div>
+      
     </div>
   );
 }

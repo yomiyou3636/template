@@ -8,6 +8,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {BsImages} from 'react-icons/bs'
 import snakeloginimg from '../images/snake.png';
 import glowimg from '../images/glow.png';
+import bluesidebar1 from '../images/bluesidebar1.PNG'
 import bluesideimg from '../images/bluesidebar.PNG';
 import frameimg from '../images/frame.png';
 import imgviewwide from '../images/imgviewwide.PNG';
@@ -19,6 +20,12 @@ import indigologin from '../images/indigologin.png'
 import bluecard from '../images/bluecard.png'  
 import bluetoplogin from '../images/bluetoplogin.PNG'  
 import balcksidebar from '../images/balcksidebar.PNG'  
+import interact from '../images/interact.PNG'  
+import brownsidebar from '../images/brownsidebar.PNG'  
+import colorscard from '../images/colorscard.PNG'  
+import codecard from '../images/codecard.PNG'  
+import cornorcard from '../images/cornorcard.PNG'  
+import citybox from '../images/citybox.PNG'  
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -109,7 +116,7 @@ const Home = () => {
 {sidebarVisible && (
           <div id="login" className='w-full h-screen  grid grid-cols-3 grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesideimg})` }}></Link>
+              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
               </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
@@ -122,6 +129,14 @@ const Home = () => {
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/Integratedsidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${interact})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/inandout" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${brownsidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
           
@@ -149,9 +164,27 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/verimg" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${frameimg})` }}></Link>
+              <Link to="/holecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${colorscard})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/codecards" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${codecard})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/cornorcard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${cornorcard})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/shadowcard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${citybox})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/topcard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${citybox})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>
+           
+           
            
           </div>
         )}

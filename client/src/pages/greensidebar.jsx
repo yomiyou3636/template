@@ -120,7 +120,7 @@ const handleSetting=()=>{
         }
     return (<><Back />
         <div className='w-full h-screen bg-slate-600'>
-            <nav className='w-[6%] h-screen bg-slate-900 flex justify-center items-center '>
+            <nav className='w-[8%] h-screen bg-slate-900 flex justify-center items-center '>
                 <div className='w-full h-[70%]  grid grid-rows-5 gap-2'>
                    <div className='w-full h-full p-2 flex items-center justify-around '>
                     <div id='homepoint' className='  w-[5px] rounded-full shadow-lg shadow-[#39FF14] h-[5px]  bg-[#39FF14]'></div> 

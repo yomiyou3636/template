@@ -21,7 +21,7 @@ function Holecard() {
                         </div> 
                     
                      </div>
-                     <h1  className='text-white text-[30px] font-bold font-mono'>Card two</h1>
+                     <h1  className='text-white text-[30px] font-bold font-mono'>Card One</h1>
                      <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ function Holecard() {
                         </div> 
                     
                      </div>
-                     <h1  className='text-white text-[30px] font-bold font-mono'>Card three</h1>
+                     <h1  className='text-white text-[30px] font-bold font-mono'>Card Two</h1>
                      <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Holecard() {
                         </div> 
                     
                      </div>
-                     <h1  className='text-white text-[30px] font-bold font-mono'>Card one</h1>
+                     <h1  className='text-white text-[30px] font-bold font-mono'>Card Three</h1>
                      <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
                     </div>
                 </div>

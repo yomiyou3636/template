@@ -83,3 +83,323 @@ height: 4.9vh;
 #but{
   background-image: linear-gradient(to right,red, orange, yellow)
 }
+
+
+
+.cont{
+  background-color:rgb(71, 71, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100vh;
+}
+.face
+{
+  background-color: #8d675c;
+  height: 90vh;
+  width: 30%;
+
+  
+  overflow: hidden;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+
+
+}
+
+#tophair{
+  width: 100%;
+  height: 11%;
+  background-color: black;
+  border-bottom-left-radius:100% ;
+  border-bottom-right-radius:100% ;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  margin-top: -10px;
+}
+#midhair{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8%;
+  
+}
+#bothair{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+#midhair div{
+ width: 9%;
+ background-color: black;
+ height: 100%;
+}
+
+#bothair div{
+  width: 9%;
+  background-color: black;
+  height: 100%;
+ 
+}
+#right{
+  border-bottom-left-radius: 120%;
+}
+#left{
+  border-bottom-right-radius: 120%;
+}
+#earlash{
+  background-color: aqua;
+  width: 100px;
+  height:20px;
+}
+
+/* #lte{
+  border-top-left-radius: 100%; 
+  border-bottom-left-radius: 100%;
+} 
+.earl{
+  display: flex;
+  height: 25vh;
+  width:7%;
+  background-color: green;
+}  */
+
+.earl{
+  margin-right: -7px;
+}
+.earr{
+  margin-left: -7px;
+}
+
+.earl, .earr{
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  z-index: 10;
+  width: 40px;
+}
+.earl div , .earr div{
+  height: 50%;
+  width: 100%;
+  background-color: #8d675c;
+}
+#lte{
+  border-top-left-radius: 100%; 
+}
+#lbe{
+  border-bottom-left-radius: 100%; 
+}
+#rte{
+  border-top-right-radius: 100%; 
+}
+#rbe{
+  border-bottom-right-radius: 100%; 
+}
+.eyelash{
+  height: 20px;
+  width: 100%;
+
+
+  margin-top: -46PX;
+  display: flex;
+  justify-content: space-around;
+}
+.eyelash #lashleft,.eyelash #lashright{
+  width: 30%;
+  height: 80%;
+  background-color: black;
+  transition: all ease 0.5s;
+}
+#lashleft{
+  border-top-left-radius: 100%;
+
+}
+#lashright{
+  border-top-right-radius: 100%;
+
+}
+.eyes{
+  width: 100%;
+  height: 50px;
+  /* background-color: red; */
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-around;
+}
+#eyeleft,#eyeright{
+  background-color: white;
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  border: 3px solid #7b564b;
+  z-index: 20;
+  transition: all ease 0.5s;
+  
+
+}
+
+
+#ball{
+  height: 100%;
+  width: 50px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+
+.nosecont{
+  /* background-color: aqua; */
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nose{
+  /* background-color: #e2ac93; */
+  width: 25%;
+  height: 100%;
+ 
+
+}
+.nosetop{
+  height: 70%;
+  width: 60%;
+  display: flex;
+  margin:auto;
+}
+#ntl,#ntr{
+  height: 100%;
+  width: 50%;
+}
+#ntl{
+  background-image: linear-gradient(to right, #8d675c ,#774f44 );
+
+}
+#ntr{
+  background-image: linear-gradient(to left,  #8d675c ,#774f44  );
+
+}
+.nosebot{
+  
+  height:30%;
+  width:100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  margin-top: -5px;
+  display: flex;
+}
+#llll,#rrrr{
+width: 50%;
+height: 100%;
+}
+#llll{
+  background-image: linear-gradient(to right,  #8d675c ,#774f44  );
+  border-top-left-radius:50% ;
+  border-bottom-left-radius:50% ;
+
+}
+#rrrr{
+  background-image: linear-gradient(to left,  #8d675c ,#774f44  );
+  border-top-right-radius:50% ;
+  border-bottom-right-radius:50% ;
+}
+
+.mouthcont{
+  width: 100%;
+  display: flex;
+ 
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.mouth{
+  transition: all ease-in-out 0.5s;
+  width: 70%;
+  height: 50%;
+  /* background-color: blue; */
+}
+.moutht{
+  /* background-color: pink; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.mouthb{
+  /* background-color: green; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: -5px;
+ 
+  
+  
+}
+#tlt{
+  background-image: linear-gradient(to top,  #8d675c ,#774f44  );
+  
+  height: 100%;
+  width: 50%;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 100%;
+
+
+}
+#trt{
+  background-image: linear-gradient(to top,  #8d675c ,#774f44 );
+
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 100%;
+}
+
+
+#tlb{
+  height: 100%;
+  width: 50%;
+  border-bottom-left-radius: 100%;
+  /* border-top-right-radius: 100%;
+  */
+  background-image: linear-gradient(to left,  #8d675c ,#774f44  );
+  background-image: linear-gradient(to bottom, #8d675c ,#774f44 );
+
+}
+#trb{
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 100%;
+ 
+  background-image: linear-gradient(to right, #8d675c ,#774f44 );
+  background-image: linear-gradient(to bottom, #8d675c ,#774f44 );
+
+
+}
+
+.beardcont{
+  width: 100%;
+  height: 40%;
+  background-color: black;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+@keyframes blink{
+0%{height:35px ;}
+40%{height: 3px;}
+60%{height:3px ;}
+100%{height: 35px;}
+0%{margin-top: 0;}
+40%{margin-top: 25px;}
+60%{margin-top: 25px;}
+100%{margin-top: 0;}
+
+}

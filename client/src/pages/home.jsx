@@ -26,6 +26,10 @@ import colorscard from '../images/colorscard.PNG'
 import codecard from '../images/codecard.PNG'  
 import cornorcard from '../images/cornorcard.PNG'  
 import citybox from '../images/citybox.PNG'  
+import topbox from '../images/topcard.PNG'  
+import avtcard from '../images/avtcard.PNG'  
+import human from '../images/human.PNG'  
+  
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -70,8 +74,9 @@ const Home = () => {
         
           <button onClick={handleLogin} className=' flex justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><AiOutlineLogin className='text-orange-400 text-xl' /> Login</button>
           <button onClick={handleSidebar} className=' flex justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BsReverseLayoutTextSidebarReverse className='text-orange-400 text-xl'  /> Sidebar</button>
-          <button onClick={handleImageview} className=' flex justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BsImages className='text-orange-400 text-xl' /> Image view</button>
           <button onClick={handleInfobox} className=' flex justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BsBox2 className='text-orange-400 text-xl' /> Card</button>
+
+          <button onClick={handleImageview} className=' flex justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BsImages className='text-orange-400 text-xl' /> Web Art</button>
          
 
                
@@ -153,6 +158,10 @@ const Home = () => {
               <Link to="/verimg" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${imgviewwide})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
+           <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
+              <Link to="/human" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${human})` }}></Link>
+              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
+           </div>
            
           </div>
         )}
@@ -160,7 +169,7 @@ const Home = () => {
 {infoboxVisible && (
           <div id="login" className='w-full h-screen  grid grid-cols-3 grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluecard})` }}></Link>
+              <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${avtcard})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
@@ -180,7 +189,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/topcard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${citybox})` }}></Link>
+              <Link to="/topcard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${topbox})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
            

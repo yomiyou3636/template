@@ -15,8 +15,8 @@ function Codecards() {
                      
                 <FaReact/>
             </div>
-            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Title</h1>
-            <p className=' h-[20%]  text-center text-gray-600 font-mono'>Dolore deserunt Laboriosam commodi fugit consequatur inventore</p>
+            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>React</h1>
+            <p className=' overflow-hidden h-[20%] mb-2  text-center text-gray-600 font-mono'>React enables interactive, modular web components for enhanced UX.</p>
             <button className=' w-[60%] h-[35px] bg-gradient-to-r rounded-full from-yellow-500 text-white font-bold text-[17px] to-red-500 '>Code</button>
             </div>
 
@@ -26,8 +26,8 @@ function Codecards() {
                      
                 <AiOutlineHtml5/>
             </div>
-            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Title</h1>
-            <p className=' h-[20%]  text-center text-gray-600 font-mono'>Dolore deserunt Laboriosam commodi fugit consequatur inventore</p>
+            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Html</h1>
+            <p className=' h-[20%] mb-2  text-center text-gray-600 font-mono'>HTML structures web content, defining its layout and semantics.</p>
             <button className=' w-[60%] h-[35px] bg-gradient-to-r rounded-full from-pink-500 text-white font-bold text-[17px] to-purple-800 '>Code</button>
             </div>
             <div className='bg-white rounded-[30px] p-1 flex flex-col items-center '>
@@ -35,8 +35,8 @@ function Codecards() {
                      
                 <IoLogoCss3/>
             </div>
-            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Title</h1>
-            <p className=' h-[20%]  text-center text-gray-600 font-mono'>Dolore deserunt Laboriosam commodi fugit consequatur inventore</p>
+            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>CSS</h1>
+            <p className=' h-[20%] mb-2 text-center text-gray-600 font-mono'>CSS styles and designs the appearance of web elements.</p>
             <button className=' w-[60%] h-[35px] bg-gradient-to-r rounded-full from-blue-300 text-white font-bold text-[17px] to-blue-900 '>Code</button>
             </div>
             <div className='bg-white rounded-[30px] p-1 flex flex-col items-center '>
@@ -44,8 +44,9 @@ function Codecards() {
                      
                 <SiJavascript className='rounded-lg'/>
             </div>
-            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Title</h1>
-            <p className=' h-[20%]  text-center text-gray-600 font-mono'>Dolore deserunt Laboriosam commodi fugit consequatur inventore</p>
+            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>Java Script</h1>
+            <p className=' h-[20%] mb-2  text-center text-gray-600 font-mono'>
+JavaScript enables interactive web functionalities.</p>
             <button className=' w-[60%] h-[35px] bg-gradient-to-r rounded-full from-green-300 text-white font-bold text-[17px] to-green-800 '>Code</button>
             </div>
          

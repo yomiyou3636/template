@@ -18,6 +18,7 @@ import Codecards from './pages/codecards';
 import Cornorcard from './pages/cornorcard';
 import Shadowcard from './pages/shadowcard';
 import Topcard from './pages/topcard';
+import Human from './pages/human';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/cornorcard" element={<Cornorcard />} />
           <Route path="/shadowcard" element={<Shadowcard />} />
           <Route path="/topcard" element={<Topcard />} />
+          <Route path="/human" element={<Human />} />
        
       </Routes>
     </BrowserRouter>

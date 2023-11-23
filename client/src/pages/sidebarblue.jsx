@@ -11,9 +11,10 @@ import {BsFillChatDotsFill} from "react-icons/bs"
 import Back from './back';
 function Sidebarblue() {
   return (
+    <> <Back /> 
     <div className='w-full h-screen bg-gradient-to-t  bg-white'>
-    <Back />  
-     <nav className='absolute group pb-3 grid gap-4 grid-rows-9 rounded-r-lg h-screen w-[8vw] bg-gradient-to-t from-blue-800 to-blue-500  hover:w-[20vw] transition-all ease-in-out duration-500  pt-5 shadow-blue-500-lg '>
+    
+     <nav className=' group pb-3 grid gap-4 grid-rows-9 rounded-r-lg h-screen sm:w-[8vw] w-[25vw] bg-gradient-to-t from-blue-800 to-blue-500 hover:w-[80%] sm:hover:w-[20vw] transition-all ease-in-out duration-500  pt-5 shadow-blue-500-lg '>
 <div className='w-[90%] transition-all ease-in-out duration-500 hover:bg-black rounded-r-[40px] flex pl-5  justify-start items-center'>
     <div className='w-[50px] h-[50px] rounded-[50%] items-center justify-center flex bg-black'> <AiOutlineHome className='text-white text-3xl'/></div>
 
@@ -61,7 +62,7 @@ function Sidebarblue() {
      </div>
      </nav>
 
-    </div>
+    </div></>
   )
 }
 

@@ -93,7 +93,7 @@ const Movingsignin = () => {
                          
                          </> ) } 
                </div>
-               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[1]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45%]  bg-gradient-to-r from-red-500 to-pink-600'>
+               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[1]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45vh]  bg-gradient-to-r from-red-500 to-pink-600'>
 
                  { 
                   leftslider && (<>

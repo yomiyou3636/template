@@ -19,6 +19,7 @@ import { CiCircleAlert } from "react-icons/ci";
 const Imageview = () => {
     return (
         <>
+          <Back />
         <div className='w-full h-[800px] bg-black  hidden md:flex  overflow-hidden'>
           
                 <div className='absolute ml-4 mt-6 rotate-12 w-[20%] h-[40vh] bg-cover bg-center bg-no-repeat  border-[20px] border-white bg-red-800 ' style={{ backgroundImage: `url(${fatherImage})` }}></div>
@@ -39,7 +40,7 @@ const Imageview = () => {
                 <Back />
         </div>
         <div className='md:hidden flex w-full h-screen bg-slate-900 px-4  flex-col  justify-center items-center '>
-        <Back />
+      
         <CiCircleAlert className='text-orange-500 text-[100px]' />
             <p className='text-white text-[25px] text-center'> Use your computer to view this page</p>
             

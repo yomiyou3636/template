@@ -246,7 +246,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>    
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${snakeloginimg})` }}></Link>
+              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${glowimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a background that have individual components that change color when hovered.</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>

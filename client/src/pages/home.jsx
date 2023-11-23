@@ -304,7 +304,7 @@ const Home = () => {
         )}
 
         {imageviewVisible && (
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 py-8'>
+          <div id="login" className='w-full h-screen sm:h-full grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/imageview" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${frameimg})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>

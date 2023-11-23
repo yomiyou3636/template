@@ -11,7 +11,7 @@ const Rotatingsignin = () => {
                    
                     
                 </div>
-                <div className='absolute sm:h-[69%] h-[69%] sm:w-[29.5%]  w-[89%] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
+                <div className='absolute sm:h-[69vw] h-[69vh] sm:w-[29.5vw]  w-[89vw] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
                     <p className='text-2xl text-white font-sans flex justify-center ' >Sign In</p>
                     <div  >
                         <p className=' text-gray-100 '>Username</p>

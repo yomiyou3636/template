@@ -2,9 +2,9 @@ import Back from './back';
 const Sankelogin = () => {
 
   return (
-    <>
+    <><Back />
     <div className="grid-container">
-      <Back />
+     
     <div className='grid-item'></div>
       <div className="grid-item"></div>
       <div className="grid-item"></div>
@@ -605,11 +605,7 @@ const Sankelogin = () => {
       <div className="grid-item"></div>
       <div className="grid-item"></div>
       <div className="grid-item"></div>
-      
-       
-      
-    </div>
-    <from  className=" absolute flex flex-col justify-start items-center pt-10  w-[30%] gap-3 h-[60%] shadow-3xl  rounded-lg bg-neutral-900  left-[35%] top-[20%]">
+      <from  className=" absolute flex flex-col justify-start items-center pt-10  sm:w-[30%] w-[90%] gap-3 sm:h-[60%] h-[50%] shadow-3xl  rounded-lg bg-neutral-900  left-[5%] sm:left-[35%] top-[20%]">
     <h1 style={{ color: "rgb(15, 206, 15)" }} className="text-3xl font-sans font-bold mb-5">SIGN IN</h1>
     <input placeholder="Username" style={{ color: "rgb(15, 206, 15)" }}  type="text" className="w-[90%] h-14 focus:outline-none rounded-lg  bg-neutral-800 text-xl pl-5"/>
     <input  placeholder="Password"  style={{ color: "rgb(15, 206, 15)" }}  type="text" className="w-[90%] h-14 focus:outline-none rounded-lg bg-neutral-800 text-xl pl-5"/>
@@ -624,8 +620,12 @@ const Sankelogin = () => {
 
 
     </from>
+       
+      
+    </div>
+  
 
-    </>
+    <Back />  </>
   );
 }
 

@@ -8,8 +8,8 @@ function Cornorcard
   return (
     <>
     <Back />
-    <div className='w-full h-screen bg-neutral-800 flex justify-center items-center'>
-        <div className='w-[65%] h-[60%]  grid  grid-cols-3 gap-3'>
+    <div className='w-full h-[150vh] sm:h-screen bg-neutral-800 flex justify-center items-center'>
+        <div className='sm:w-[65%] w-[90%] h-[90%] sm:h-[60%]  grid  grid-rows-3 sm:grid-rows-1   sm:grid-cols-3 gap-3'>
             <div className=' border-[8px] border-[#269ff6] bg-neutral-800 rounded-[15px] rounded-tl-[70px] overflow-hidden '>
 <div className=' w-full h-[40%] flex justify-start items-start'>
     <div className='w-[50%] h-full  border-[#269ff6]   border-[8px] rounded-tl-[40%] rounded-br-[50%] flex justify-center items-center'>

@@ -7,8 +7,8 @@ function Shadowcard() {
   return (
     <>
     <Back />
-    <div className='w-full h-screen bg-white flex justify-center items-center'>
-        <div className='w-[60%] h-[65%]  grid gap-4 grid-cols-3'>
+    <div className='w-full sm:h-screen h-[180vh] sm:py-0 py-5 bg-white flex justify-center items-center'>
+        <div className='sm:w-[60%] sm:h-[65%] h-full w-[90%]   grid gap-4 grid-rows-3 sm:grid-rows-1 sm:grid-cols-3'>
             <div className='bg-white rounded-2xl shadow-lg shadow-black flex  overflow-hidden flex-col'>
                 <div className='w-full h-[40%]  bg-cover bg-no-repeat bg-center ' style={{backgroundImage:`url(${tokyo})`}}></div>
                 <div className='w-full h-[60%] bg-neutral-900 gap-2  p-3 shadow-[0px_0px_50px_30px_rgba(0,0,0)] flex flex-col items-center  justify-start pt-5'>

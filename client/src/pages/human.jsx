@@ -12,7 +12,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
     const [righteyetm, setrighteyetm]=useState('0px')
     const [lefteyelash, setletfeyelash]=useState('0deg')
     const [righteyelash, setrighteyelash]=useState('0deg')
-    const [theeth, settheeth]=useState('none')
+    const [theeth, settheeth]=useState('0px')
     const [mouth, setmouth]=useState('70%')
     const [bord, setbord]=useState('#8d675c')
     const [toung, settoung]=useState('0px')
@@ -27,7 +27,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
     setrighteyetm('0px')
     setletfeyeheight('100%')
     setrighteyeheight('100%')
-    settheeth('none')
+    settheeth('0px')
     setmouth('70%')
     setbord('#8d675c')
     settoung('70px')
@@ -36,7 +36,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
   }
 
     const handlesmile=()=>{
-        settheeth('grid')
+        settheeth('15px')
         setmouth('75%')
         setletfeyelash('-5deg')
         setrighteyelash("5deg")
@@ -57,7 +57,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
     setrighteyetm('0px')
     setletfeyeheight('100%')
     setrighteyeheight('100%')
-    settheeth('none')
+    settheeth('0px')
     setmouth('70%')
     setbord('#8d675c')
     settoung('0px')
@@ -72,7 +72,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
     setrighteyeheight('10%')
     setletfeyelash('-12deg')
     setrighteyelash("12deg")
-    settheeth('none')
+    settheeth('0px')
     setmouth('70%')
     setbord('#8d675c')
     settoung('0px')
@@ -87,7 +87,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
     setrighteyeheight('100%')
     setletfeyelash('0deg')
     setrighteyelash("0deg")
-    settheeth('none')
+    settheeth('0px')
     setmouth('70%')
     setbord('#8d675c')
     settoung('0px')
@@ -99,26 +99,26 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
   return (
     <div className='w-full h-screen '>
       
-        <div className='absolute w-[20%] h-screen bg-neutral-900 p-3 flex justify-center items-center  '>
-            <div className='w-full h-[60%] grid grid-rows-5 gap-2'>
-            <div id='blink' onClick={handlenormal} className= ' flex justify-center items-center bg-slate-700 text-white gap-3 text-[20px] rounded-lg'><FaFaceMeh className='text-orange-500 text-[30px]' /> Normal</div>
+        <div className='absolute sm:w-[20%] w-full h-[10%]  sm:h-screen bg-neutral-900 p-3 sm:flex  justify-center items-center   '>
+            <div className='w-full sm:h-[60%] h-full grid sm:grid-rows-5 sm:grid-cols-1 grid-cols-5 gap-2 '>
+            <div id='blink' onClick={handlenormal} className= ' sm:flex-row flex-col flex justify-center items-center bg-slate-700  text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceMeh className=' text-orange-500 text-[20px] sm:text-[30px]' /> Normal</div>
 
-            <div id='blink' onClick={handleAngry} className= ' flex justify-center items-center bg-slate-700 text-white gap-3 text-[20px] rounded-lg'><FaAngry className='text-orange-500 text-[30px]' /> Angry</div>
-            <div id='blink' onClick={handlesmile} className= ' flex justify-center items-center bg-slate-700 text-white gap-3 text-[20px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[30px]' /> Creepy</div>
+            <div id='blink' onClick={handleAngry} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaAngry className='text-orange-500 text-[20px] sm:text-[30px]' /> Angry</div>
+            <div id='blink' onClick={handlesmile} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[20px] sm:text-[30px]' /> Creepy</div>
 
-            <div id='blink' onClick={handlesad} className= ' flex justify-center items-center bg-slate-700 text-white gap-3 text-[20px] rounded-lg'><FaSadTear className='text-orange-500 text-[30px]' /> Sad</div>
-            <div id='blink' onClick={handletoung} className= ' flex justify-center items-center bg-slate-700 text-white gap-3 text-[20px] rounded-lg'><FaFaceGrinTongue className='text-orange-500 text-[30px]' /> Toung out</div>
+            <div id='blink' onClick={handlesad} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSadTear className=' text-orange-500 text-[20px] sm:text-[30px]' /> Sad</div>
+            <div id='blink' onClick={handletoung} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceGrinTongue className=' text-orange-500 text-[20px] sm:text-[30px]' /> Toung</div>
           
             </div>
 
         </div>
         <Back />
-         <div className="cont">
-    <div className="earl">
+         <div className="cont  ">
+    <div className="earl sm:h-[25vh] h-[15vh] sm:w-[40px] w-[30px]  ">
         <div className="lear flex justify-start items-end " id="lte"> </div>
         <div className="lear" id="lbe"></div>
     </div>
-        <div className="face">
+        <div className="face sm:h-[90vh] sm:w-[30%] h-[70vh] w-[50%] ">
             <div id="tophair"></div>
          <div id="midhair">
             <div></div>
@@ -133,8 +133,8 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
             <div id="lashright" style={{ transform: `rotate(${righteyelash})` }}></div>
         </div>
         <div className="eyes">
-            <div className='absolute  flex justify-center items-center  mt-[-2%] w-[30%] h-[120px]'>
-            <div className='w-[5%] h-[3px] bg-black'></div>
+            <div className='absolute  flex justify-center items-center  mt-[-2%] sm:w-[30%]  w-[50%] h-[120px]'>
+            <div className='w-[5%]  h-[3px] bg-black'></div>
                 <div className=' w-[40%] h-[90%] rounded-full   border-[3px] border-black'></div>
                 <div className='w-[9%] h-[3px] bg-black'></div>
                 <div className=' w-[40%] h-[90%] rounded-full   border-[3px] border-black'></div>
@@ -176,13 +176,13 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
                     <div id="tlt"></div>
                     <div id="trt"></div>
                 </div>
-                <div className=' hidden W-full transition-all ease-in-out duration-500 h-[15px] bg-[#8d675c]  grid-cols-6 gap-[1px] ' style={{display:`${theeth}`}}>
-                    <div className='bg-white h-[50%] rounded-b-md rounded-bl-[500px]'></div>
-                    <div className='bg-white  h-[80%]  z-10 rounded-b-md'></div>
-                    <div className='bg-white h-[110%] rounded-b-md z-10'></div>
-                    <div className='bg-white h-[110%] rounded-b-md z-10'></div>
-                    <div className='bg-white  h-[80%]  z-10 rounded-b-md'></div>
-                    <div className='bg-white  h-[50%]  rounded-b-md rounded-br-[500px]'></div>
+                <div className='  W-full transition-all ease-in-out duration-500 h-[0p] bg-[#8d675c] justify-end  grid grid-cols-6 gap-[1px] ' style={{height:`${theeth}`}}>
+                    <div className='bg-white h-[0%]   rounded-b-md rounded-bl-[500px]'></div>
+                    <div className='bg-white  h-[50%]  z-10 rounded-b-md'></div>
+                    <div className='bg-white h-[80%] rounded-b-md z-10'></div>
+                    <div className='bg-white h-[80%] rounded-b-md z-10'></div>
+                    <div className='bg-white  h-[50%]  z-10 rounded-b-md'></div>
+                    <div className='bg-white  h-[0%]  rounded-b-md rounded-br-[500px]'></div>
                 </div>
                 <div className=' w-full h-[0px] flex justify-center transition-all ease-in-out duration-300 ' style={{height:`${toung}`}}>
                     <div className=' w-[90%] h-full rounded-b-full bg-gradient-to-b from-[#d77e8b] to-[#d0686b]' ></div>
@@ -201,7 +201,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
         </div>
         </div>
 
-        <div className="earr">
+        <div className="earr sm:h-[25vh] h-[15vh] sm:w-[40px] w-[30px] ">
             <div className="rear" id="rte"></div>
         <div className="rear" id="rbe"></div>
         </div>

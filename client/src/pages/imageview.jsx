@@ -15,9 +15,11 @@ import babImage from '../images/bab.jpg';
 import mandelaImage from '../images/mandela.jpg';
 import ronImage from '../images/ron.jpg';
 import bbadImage from '../images/bbad.jpg';
+import { CiCircleAlert } from "react-icons/ci";
 const Imageview = () => {
     return (
-        <div className='w-full h-[800px] bg-black  overflow-hidden'>
+        <>
+        <div className='w-full h-[800px] bg-black  hidden md:flex  overflow-hidden'>
           
                 <div className='absolute ml-4 mt-6 rotate-12 w-[20%] h-[40vh] bg-cover bg-center bg-no-repeat  border-[20px] border-white bg-red-800 ' style={{ backgroundImage: `url(${fatherImage})` }}></div>
                 <div className='absolute ml-[20%] mt-0 -rotate-12 w-[20%] h-[40vh] bg-cover bg-center bg-no-repeat  border-[20px] border-white bg-red-800 ' style={{ backgroundImage: `url(${motherImage})` }}></div>
@@ -36,6 +38,16 @@ const Imageview = () => {
                 <div className='absolute ml-[80%] mt-[27%] -rotate-[50deg] w-[20%] h-[40vh] bg-cover bg-center bg-no-repeat  border-[20px] border-white bg-red-800 ' style={{ backgroundImage: `url(${bbadImage})` }}></div>
                 <Back />
         </div>
+        <div className='md:hidden flex w-full h-screen bg-slate-900 px-4  flex-col  justify-center items-center '>
+        <Back />
+        <CiCircleAlert className='text-orange-500 text-[100px]' />
+            <p className='text-white text-[25px] text-center'> Use your computer to view this page</p>
+            
+           
+        </div>
+       
+        </>
+        
     );
 }
 

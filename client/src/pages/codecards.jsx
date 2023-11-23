@@ -8,20 +8,21 @@ function Codecards() {
   return (
     <>
     <Back />
-    <div className='w-full h-screen bg-gray-400 flex justify-center items-center'>
-        <div className='w-[80%] h-[65%] grid grid-cols-4 gap-6'>
-            <div className='bg-white rounded-[30px] p-1 flex flex-col items-center '>
+    <div className='w-full sm:h-screen h-[200vh] py-3  bg-gray-400 flex justify-center items-center'>
+        <div className='sm:w-[80%] w-[90%] h-[100%] sm:h-[65%] grid grid:rows-4 sm:grid-rows-1   sm:grid-cols-4 gap-6'>
+            
+            <div className='bg-white rounded-[30px]  p-1 flex   flex-col items-center '>
                 <div className='w-full min-h-[55%]  rounded-t-[30px] rounded-br-[60%] bg-gradient-to-tr from-yellow-500 to-red-600 flex justify-center items-center text-white text-[80px] text-bold '>
                      
                 <FaReact/>
             </div>
-            <h1 className='text-center text-gray-700 font-bold text-[25px] font-sans'>React</h1>
+            <h1 className=' text-center text-gray-700 font-bold text-[25px] font-sans'>React</h1>
             <p className=' overflow-hidden h-[20%] mb-2  text-center text-gray-600 font-mono'>React enables interactive, modular web components for enhanced UX.</p>
             <button className=' w-[60%] h-[35px] bg-gradient-to-r rounded-full from-yellow-500 text-white font-bold text-[17px] to-red-500 '>Code</button>
             </div>
 
 
-            <div className='bg-white rounded-[30px] p-1 flex flex-col items-center '>
+            <div className='bg-white rounded-[30px]   p-1 flex  flex-col items-center '>
                 <div className='w-full min-h-[55%]  rounded-t-[30px] rounded-br-[60%] bg-gradient-to-tr from-pink-500 to-purple-800 flex justify-center items-center text-white text-[80px] text-bold '>
                      
                 <AiOutlineHtml5/>

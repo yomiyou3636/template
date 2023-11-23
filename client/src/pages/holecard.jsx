@@ -7,10 +7,10 @@ function Holecard() {
   return (
     <>
     <Back />
-    <div className='w-full h-screen bg-slate-900 flex justify-center items-center'>
-        <div className='w-[80%] h-[70%]  grid grid-cols-3 gap-[50px]'>
+    <div className='w-full h-[180vh] sm:pt-0 pt-[20%] pb-5 sm:h-screen bg-slate-900 flex justify-center items-center'>
+        <div className='w-[80%] sm:h-[70%] h-full grid grid-rows-3 sm:grid-rows-1 sm:grid-cols-3 gap-[100px]'>
         
-            <div className='bg-white     rounded-b-full'>
+            <div className='bg-white  rounded-b-full'>
                 <div className='bg-indigo-300 w-full h-[97%] rounded-b-full'>
                     <div className='bg-gradient-to-t  from-indigo-500 to-pink-500  w-full h-[97%] rounded-b-full flex-col flex items-center px-4 gap-4 justify-start'>
                      <div className='mt-[-20%] w-[150px] h-[150px] rounded-full bg-pink-600'>
@@ -21,8 +21,8 @@ function Holecard() {
                         </div> 
                     
                      </div>
-                     <h1  className='text-white text-[30px] font-bold font-mono'>Card One</h1>
-                     <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
+                     <h1  className='text-white text-[30px] font-bold font-mono '>Card One</h1>
+                     <p className='text-center text-white h-[40%]   '>Lorem ipsum  sed, ut exercitationem illum molestias nisi itaque.</p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ function Holecard() {
                     
                      </div>
                      <h1  className='text-white text-[30px] font-bold font-mono'>Card Two</h1>
-                     <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
+                     <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicieum i itaque.</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ function Holecard() {
                     
                      </div>
                      <h1  className='text-white text-[30px] font-bold font-mono'>Card Three</h1>
-                     <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur doloribus libero necessitatibus possimus at obcaecati, rerum autem distinctio perspiciatis eum eveniet tempore sequi sed, ut exercitationem illum molestias nisi itaque.</p>
+                     <p className='text-center text-white '>Lorem rerum autem tempore sequi, illum molestias nisi itaque.</p>
                     </div>
                 </div>
             </div>

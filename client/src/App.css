@@ -97,8 +97,7 @@ height: 4.9vh;
 .face
 {
   background-color: #8d675c;
-  height: 90vh;
-  width: 30%;
+
 
   
   overflow: hidden;
@@ -125,7 +124,7 @@ height: 4.9vh;
   height: 15%;
   display: flex;
   justify-content: space-between;
-  margin-top: -8%;
+  margin-top: -12%;
   
 }
 #bothair{
@@ -179,9 +178,9 @@ height: 4.9vh;
 .earl, .earr{
   display: flex;
   flex-direction: column;
-  height: 25vh;
+ 
   z-index: 10;
-  width: 40px;
+ 
 }
 .earl div , .earr div{
   height: 50%;

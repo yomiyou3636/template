@@ -10,7 +10,7 @@ function Inandout() {
 <> <Back />
     <div className='w-full h-screen '>
        
-<div className='w-[15%] h-screen bg-white flex flex-col justify-center items-start gap-1'>
+<div className='w-auto h-screen bg-white flex flex-col justify-center items-start gap-1'>
 <div className='w-[100px] h-[80px]   flex group hover:w-full  '>
     <div className='z-10 w-[100px] group bg-red-900 h-full flex justify-center items-center text-white text-3xl '><IoHomeOutline /></div>
     <div className=' absolute w-[150px] group-hover:ml-[100px] transition-all ease-in-out duration-300 h-[80px] ml-[-150px]  bg-red-900 text-white text-[20px] flex justify-start pl-5 items-center'> Home</div>

@@ -4,14 +4,14 @@ const Rotatingsignin = () => {
     return (
         <><Back />
         <div className='w-full h-screen bg-gray-900 flex justify-center items-center rounded-lg'>
-            <div className=' overflow-hidden w-[30%] h-[70%] rounded-lg bg-gray-950 flex justify-center items-center'>
+            <div className=' overflow-hidden sm:w-[30%] w-[90%] h-[70%] rounded-lg bg-gray-950 flex justify-center items-center'>
                 <div className='h-[1000px] w-[80%] rotating-div grid grid-rows-2'>
                 <div className='bg-gradient-to-r from-gray-950 to-pink-600 '></div>
                     <div className='bg-gradient-to-r from-pink-600 to-gray-950 '></div>
                    
                     
                 </div>
-                <div className='absolute h-[69%] w-[29.5%] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
+                <div className='absolute sm:h-[69%] h-[69.5%] sm:w-[29.5%]  w-[89%] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
                     <p className='text-2xl text-white font-sans flex justify-center ' >Sign In</p>
                     <div  >
                         <p className=' text-gray-100 '>Username</p>

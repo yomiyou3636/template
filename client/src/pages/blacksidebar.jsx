@@ -32,7 +32,7 @@ sethomebtncolor('white')
   const handleOrnage=()=>{
     seticonsign(!iconsign)
     if(leftmargin===0)
-    setleftmarigin("-25%")
+    setleftmarigin("-85%")
 
 else
 setleftmarigin(0)
@@ -49,9 +49,10 @@ setpagebtncolor('white')
   };
 
   return (
-    <><Back />
+      <>
+      <Back />
     <div className='w-full h-screen flex justify-start'>
-      <div id='sidebar' className='w-[25%] transition-all  ease-out duration-500 min-h-screen bg-black overflow-y-scroll flex flex-col justify-start items-center' style={{marginLeft:`${leftmargin}`}}>
+      <div id='sidebar' className='w-[85%] sm:w-[25%] transition-all  ease-out duration-500 min-h-screen bg-black overflow-y-scroll flex flex-col justify-start items-center' style={{marginLeft:`${leftmargin}`}}>
         <div className=' flex justify-center items-center w-full h-[30%]'>
           <div className='w-[130px] h-[130px] rounded-full flex justify-center items-center bg-white border-2 border-orange-500'>
           <div className='w-[120px]  h-[120px] rounded-full bg-center bg-no-repeat bg-cover' style={{backgroundImage:`url(${father})`}}></div></div>
@@ -81,7 +82,7 @@ setpagebtncolor('white')
           <br />
         </div>
       </div>
-      <div className='w-[75%] h-screen pt-5 pl-5 transition-all ease-in-out duration-300'>
+      <div className='sm:w-[75%] w-[10%] h-screen pt-5 pl-1 transition-all ease-in-out duration-300'>
 <div onClick={handleOrnage} className='w-[40px] min-h-[40px] bg-orange-500 flex justify-center items-center rounded-lg'> {iconsign ?<TiThMenu className='text-white text-[30px]'  />: <IoMdClose className='text-white text-[30px]' />}</div>
       </div>
     </div></>

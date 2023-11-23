@@ -4,12 +4,10 @@ import {AiOutlineLogin} from 'react-icons/ai'
 import {BsBox2} from 'react-icons/bs'
 import {BsReverseLayoutTextSidebarReverse} from 'react-icons/bs'
 import {BiArrowBack} from 'react-icons/bi'
-import {AiOutlineHome} from 'react-icons/ai'
 import {BsImages} from 'react-icons/bs'
-import snakeloginimg from '../images/snake.png';
+// import snakeloginimg from '../images/snake.png';
 import glowimg from '../images/glow.png';
 import bluesidebar1 from '../images/bluesidebar1.PNG'
-import bluesideimg from '../images/bluesidebar.PNG';
 import frameimg from '../images/frame.png';
 import imgviewwide from '../images/imgviewwide.PNG';
 import navgreen from '../images/navgreen.png';
@@ -17,7 +15,6 @@ import purplesign from '../images/purplesign.png';
 import movable from '../images/movable.PNG'; 
 import pinksignin from '../images/pinksignin.png'  
 import indigologin from '../images/indigologin.png'  
-import bluecard from '../images/bluecard.png'  
 import bluetoplogin from '../images/bluetoplogin.PNG'  
 import balcksidebar from '../images/balcksidebar.PNG'  
 import interact from '../images/interact.PNG'  
@@ -30,7 +27,7 @@ import topbox from '../images/topcard.PNG'
 import avtcard from '../images/avtcard.PNG'  
 import human from '../images/human.PNG'  
 import { GiHamburgerMenu } from "react-icons/gi";
-import { ImFeed } from 'react-icons/im';
+
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -132,7 +129,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>    
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${snakeloginimg})` }}></Link>
+              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a background that have individual components that change color when hovered.</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>

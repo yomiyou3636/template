@@ -7,7 +7,7 @@ function Holecard() {
   return (
     <>
     <Back />
-    <div className='w-full h-[180vh] sm:pt-0 pt-[20%] pb-5 sm:h-screen bg-slate-900 flex justify-center items-center'>
+    <div className='w-full h-[180dvh] sm:pt-0 pt-[20%] pb-5 sm:h-screen bg-slate-900 flex justify-center items-center'>
         <div className='w-[80%] sm:h-[70%] h-full grid grid-rows-3 sm:grid-rows-1 sm:grid-cols-3 gap-[100px]'>
         
             <div className='bg-white  rounded-b-full'>

@@ -101,29 +101,29 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
   return (
     <div className='w-full h-screen '>
       
-        <div className='absolute sm:w-[20%] sm:mt-0 mt-[90vh] w-full h-[10vh]  sm:h-screen bg-neutral-900 p-3 sm:flex  justify-center items-center   '>
+        <div className='absolute sm:w-[20%] sm:mt-0 mt-[90dvh] w-full h-[10dvh]  sm:h-screen bg-neutral-900 p-3 sm:flex  justify-center items-center   '>
             <div className='w-full sm:h-[60%]  h-full grid sm:grid-rows-5 sm:grid-cols-1 grid-cols-5 gap-2 '>
-            <div id='blink' onClick={handlenormal} className= ' sm:flex-row flex-col flex justify-center items-center bg-slate-700  text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceMeh className=' text-orange-500 text-[20px] sm:text-[30px]' /> Normal</div>
+            <div id='blink' onClick={handlenormal} className= ' cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700  text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceMeh className=' text-orange-500 text-[20px] sm:text-[30px]' /> Normal</div>
 
-            <div id='blink' onClick={handleAngry} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaAngry className='text-orange-500 text-[20px] sm:text-[30px]' /> Angry</div>
-            <div id='blink' onClick={handlesmile} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[20px] sm:text-[30px]' /> Creepy</div>
+            <div id='blink' onClick={handleAngry} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaAngry className='text-orange-500 text-[20px] sm:text-[30px]' /> Angry</div>
+            <div id='blink' onClick={handlesmile} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[20px] sm:text-[30px]' /> Creepy</div>
 
-            <div id='blink' onClick={handlesad} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSadTear className=' text-orange-500 text-[20px] sm:text-[30px]' /> Sad</div>
-            <div id='blink' onClick={handletoung} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceGrinTongue className=' text-orange-500 text-[20px] sm:text-[30px]' /> Toung</div>
+            <div id='blink' onClick={handlesad} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSadTear className=' text-orange-500 text-[20px] sm:text-[30px]' /> Sad</div>
+            <div id='blink' onClick={handletoung} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceGrinTongue className=' text-orange-500 text-[20px] sm:text-[30px]' /> Toung</div>
           
             </div>
 
         </div>
         
         <div>
-            <Link to='/' className='z-200 text-[17px] shadow-2xl  shadow-black h-[80px] rounded-full w-[80px] sm:h-[40px] fixed sm:w-[100px]   p-1 bg-orange-400 text-md text-white flex justify-center items-center gap-1 sm:rounded-lg ml-[75%] mt-[3vh] sm:ml-[90%] sm:mt-[30px]'><BiArrowBack />Back</Link>
+            <Link to='/' className='z-200 text-[17px] shadow-2xl  shadow-black h-[80px] rounded-full w-[80px] sm:h-[40px] fixed sm:w-[100px]   p-1 bg-orange-400 text-md text-white flex justify-center items-center gap-1 sm:rounded-lg ml-[75%] mt-[3dvh] sm:ml-[90%] sm:mt-[30px]'><BiArrowBack />Back</Link>
         </div>
          <div className="cont  ">
-    <div className="earl sm:h-[25vh] h-[15vh] sm:w-[40px] w-[30px]  ">
+    <div className="earl sm:h-[25dvh] h-[15dvh] sm:w-[40px] w-[30px]  ">
         <div className="lear flex justify-start items-end " id="lte"> </div>
         <div className="lear" id="lbe"></div>
     </div>
-        <div className="face sm:h-[90vh] sm:w-[30%] h-[70vh] w-[70%] ">
+        <div className="face sm:h-[90dvh] sm:w-[30%] h-[70dvh] w-[70%] ">
             <div id="tophair"></div>
          <div id="midhair">
             <div></div>
@@ -206,7 +206,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
         </div>
         </div>
 
-        <div className="earr sm:h-[25vh] h-[15vh] sm:w-[40px] w-[30px] ">
+        <div className="earr sm:h-[25ddvh] h-[15ddvh] sm:w-[40px] w-[30px] ">
             <div className="rear" id="rte"></div>
         <div className="rear" id="rbe"></div>
         </div>

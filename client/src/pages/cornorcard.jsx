@@ -8,7 +8,7 @@ function Cornorcard
   return (
     <>
     <Back />
-    <div className='w-full h-[150vh] sm:h-screen bg-slate-900 flex justify-center items-center'>
+    <div className='w-full h-[150dvh] sm:h-screen bg-slate-900 flex justify-center items-center'>
         <div className='sm:w-[65%] w-[90%] h-[90%] sm:h-[60%]  grid  grid-rows-3 sm:grid-rows-1   sm:grid-cols-3 gap-3'>
             <div className=' border-[8px] border-[#269ff6] bg-slate-900 rounded-[15px] rounded-tl-[70px] overflow-hidden '>
 <div className=' w-full h-[40%] flex justify-start items-start'>

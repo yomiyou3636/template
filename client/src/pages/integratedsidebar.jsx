@@ -38,7 +38,7 @@ function Integratedsidebar() {
   return (
     <><Back />
     
-    <div className='w-full h-screen bg-white flex  justify-start'>
+    <div className='w-full h-[100dvh] sm:h-screen bg-white flex  justify-start'>
         <div className='sm:w-[25%] w-[80%] h-screen bg-indigo-950 flex-col  flex items-start'>
         <div className='w-full h-[25%]  flex justify-center items-center' >
         <FaReact className='text-purple-400 text-[70px] ' />

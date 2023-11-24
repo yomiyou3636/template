@@ -3,7 +3,7 @@ const Sankelogin = () => {
 
   return (
     <><Back />
-    <div className="grid-container">
+    <div className="grid-container h-[100dvh] sm:h-screen">
      
     <div className='grid-item'></div>
       <div className="grid-item"></div>

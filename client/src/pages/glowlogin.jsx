@@ -4,9 +4,9 @@ const Glowlogin = () => {
     return (
         <>  
         <Back />
-        <div className='w-screen h-screen bg-black flex justify-center sm:pt-0 pt-[20%]  sm:items-center items-start'>
+        <div className='w-screen h-[100dvh] sm:h-screen bg-black flex justify-center sm:pt-0 pt-[20%]  sm:items-center items-start'>
           
-        <div  className=' z-10 bg-black mt-[25vh] sm:mt-0   absolute sm:w-[25%] sm:h-[55vh] w-[90%] h-[40%]   rounded-[40%] flex pt-10 flex-col justify-start items-center gap-4'>
+        <div  className=' z-10 bg-black mt-[25dvh] sm:mt-0   absolute sm:w-[25%] sm:h-[55dvh] w-[90%] h-[40%]   rounded-[40%] flex pt-10 flex-col justify-start items-center gap-4'>
                 <p className='text-white font-bold text-3xl '>Log in</p>
                 <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 text-white border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />
                 <input className='w-[90%] bg-black rounded-[40px] h-[17%] border-2 text-white border-gray-400 pl-4 text-xl' placeholder='Username' type="text" />

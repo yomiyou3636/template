@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 import Back from './back';
 const Bluecard = () => {
     return (<>        <Back />
-        <div className='w-full h-screen bg-slate-900 flex justify-center items-center'>
+        <div className='w-full h-[100dvh] sm:h-screen bg-slate-900 flex justify-center items-center'>
     <div className='sm:w-[60%] w-[80%] sm:h-[60%]  h-[80%] shadow-lg rounded-lg overflow-hidden shadow-black flex-col sm:flex-row flex justify-start  '>
         <div className='sm:w-[35%]  sm:h-full w-full h-[35%]  bg-cover sm:bg-center bg-top  bg-no-repeat ' style={{backgroundImage: `url(${avatar})`}}></div>
  <div className='sm:w-[65%] sm:h-full w-full h-[65%]  bg-black p-3 sm:p-3'>

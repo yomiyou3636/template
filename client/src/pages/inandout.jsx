@@ -8,7 +8,7 @@ import Back from './back';
 function Inandout() {
   return (
 <> <Back />
-    <div className='w-full h-screen '>
+    <div className='w-full h-[100dvh] sm:h-screen '>
        
 <div className='w-auto h-screen bg-white flex flex-col justify-center items-start gap-1'>
 <div className='w-[100px] h-[80px]   flex group hover:w-full  '>

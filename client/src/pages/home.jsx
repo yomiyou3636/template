@@ -124,6 +124,9 @@ const Home = () => {
 
       <div style={{display:`${content}`}} className='  w-full flex sm:max-w-[0%] sm:z-[-100] h-full sm:h-screen  '>
         {loginVisible && (
+
+         <div className='h-full w-full flex flex-col'>
+         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>LOG IN</div>
           <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${movable})` }}></Link>
@@ -140,7 +143,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>  
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/switchlogin" className='w-full h-[70%] bg-cove bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluetoplogin})` }}></Link>
+              <Link to="/switchlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluetoplogin})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>           
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
@@ -152,39 +155,45 @@ const Home = () => {
                    
           </div>
           
-        )}
+          </div> )}
 
 {sidebarVisible && (
+   
+   <div className='h-full w-full flex flex-col'>
+   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>SIDEBAR</div>
           <div id="login" className='w-full h-full ms:h-screen  grid grid-col-1 grid-rows-6   sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
+              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
               </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/greensidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${navgreen})` }}></Link>
+              <Link to="/greensidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${navgreen})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/purplesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${indigologin})` }}></Link>
+              <Link to="/purplesidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${indigologin})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
+              <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/Integratedsidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${interact})` }}></Link>
+              <Link to="/Integratedsidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${interact})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/inandout" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${brownsidebar})` }}></Link>
+              <Link to="/inandout" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${brownsidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
           
-          </div>
+          </div></div>
         )}
 
         {imageviewVisible && (
+         
+         <div className='h-full w-full flex flex-col'>
+         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>WEB ART</div>
           <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 py-8'>
              <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/human" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${human})` }}></Link>
@@ -200,10 +209,13 @@ const Home = () => {
            </div>
           
            
-          </div>
+          </div></div>
         )}
 
 {infoboxVisible && (
+   
+   <div className='h-full w-full flex flex-col'>
+   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>CARD</div>
           <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${avtcard})` }}></Link>
@@ -232,14 +244,17 @@ const Home = () => {
            
            
            
-          </div>
+          </div></div>
         )}
         
       </div>
 
       <div className='sm:flex hidden w-full h-full sm:h-screen sm:w-[80%]  '>
         {loginVisible && (
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+         
+         <div className='h-full w-full flex flex-col'>
+         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>LOG IN</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 pt-3 pb-8'>
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${movable})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
@@ -268,43 +283,49 @@ const Home = () => {
                       
                       
                    
-          </div>
+          </div></div>
           
         )}
 
 {sidebarVisible && (
-          <div id="login" className='w-full h-full ms:h-screen  grid grid-col-1 grid-rows-6   sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+   
+   <div className='h-full w-full flex flex-col'>
+   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>SIDEBAR</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid grid-col-1 grid-rows-6   sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 pb-8 pt-3'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
+              <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
               </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/greensidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${navgreen})` }}></Link>
+              <Link to="/greensidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${navgreen})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/purplesidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${indigologin})` }}></Link>
+              <Link to="/purplesidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${indigologin})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
+              <Link to="/blacksidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${balcksidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/Integratedsidebar" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${interact})` }}></Link>
+              <Link to="/Integratedsidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${interact})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/inandout" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${brownsidebar})` }}></Link>
+              <Link to="/inandout" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${brownsidebar})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
            </div>
           
-          </div>
+          </div></div>
         )}
 
         {imageviewVisible && (
          
-          <div id="login" className='w-full h-screen sm:h-full grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 py-8'>
+         <div className='h-full w-full flex flex-col'>
+         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>WEB ART</div>
+         
+          <div id="login" className='w-full h-screen sm:h-full grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 pt-3 pb-8'>
              <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/human" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${human})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
@@ -319,11 +340,14 @@ const Home = () => {
            </div>
           
            
-          </div>
+          </div></div>
         )}
 
 {infoboxVisible && (
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+   
+   <div className='h-full w-full flex flex-col'>
+   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>CARD</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 bt-3 pb-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${avtcard})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>
@@ -351,7 +375,7 @@ const Home = () => {
            
            
            
-          </div>
+          </div></div>
         )}
         
       </div>

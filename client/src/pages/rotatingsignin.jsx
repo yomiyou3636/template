@@ -3,7 +3,7 @@ import Back from './back';
 const Rotatingsignin = () => {
     return (
         <><Back />
-        <div className='w-full h-[100%] bg-gray-900 flex justify-center items-center rounded-lg'>
+        <div className='w-full h-screen bg-gray-900 flex justify-center items-center rounded-lg'>
             <div className=' overflow-hidden sm:w-[30%] w-[90%] h-[70%] rounded-lg bg-gray-950 flex justify-center items-center'>
                 <div className='h-[1000px] w-[80%] rotating-div grid grid-rows-2'>
                 <div className='bg-gradient-to-r from-gray-950 to-pink-600 '></div>
@@ -11,7 +11,7 @@ const Rotatingsignin = () => {
                    
                     
                 </div>
-                <div className='absolute sm:h-[69vw] h-[69vh] sm:w-[29.5vw]  w-[89vw] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
+                <div className='absolute sm:h-[69vh] h-[69.5vh] sm:w-[29.5vw]  w-[89vw] bg-gray-900 rounded-lg gap-3 pt-4 px-8 grid grid-rows-5'>
                     <p className='text-2xl text-white font-sans flex justify-center ' >Sign In</p>
                     <div  >
                         <p className=' text-gray-100 '>Username</p>

@@ -39,8 +39,8 @@ const Movingsignin = () => {
     }
 
 
-    return (<> <Back  />
-        <div className='w-full h-screen flex justify-center items-center'> 
+    return (<> <Back className='z-20' />
+        <div className=' z-[5] w-full h-screen flex justify-center items-center'> 
             <div id='jskdfh' className='sm:w-[50%] w-[80%] sm:h-[75%]  h-[90vh]  transition-all  ease-in-out duration-500  shadow-lg flex sm:flex-row flex-col  shadow-gray-700'>
                 
                 
@@ -93,7 +93,7 @@ const Movingsignin = () => {
                          
                          </> ) } 
                </div>
-               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[1]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45vh]  bg-gradient-to-r from-red-500 to-pink-600'>
+               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[10]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45vh]  bg-gradient-to-r from-red-500 to-pink-600'>
 
                  { 
                   leftslider && (<>

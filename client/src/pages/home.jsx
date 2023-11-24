@@ -22,10 +22,11 @@ import brownsidebar from '../images/brownsidebar.PNG'
 import colorscard from '../images/colorscard.PNG'  
 import codecard from '../images/codecard.PNG'  
 import cornorcard from '../images/cornorcard.PNG'  
-import citybox from '../images/citybox.PNG'  
+import citybox from '../images/citycard.PNG'  
 import topbox from '../images/topcard.PNG'  
 import avtcard from '../images/avtcard.PNG'  
 import human from '../images/human.PNG'  
+import snakepic from '../images/snakelogin.png'  
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
@@ -82,7 +83,7 @@ const Home = () => {
   return (
     <div  className='w-full sm:h-screen h-[260vh] bg-gray-900    flex overflow-hidden'>
       <button onClick={handlesidebar}  className='   fixed sm:hidden z-10  bg-orange-500 text-white text-[25px] mt-5 ml-[85vw] w-[35px] h-[35px] rounded-xl flex justify-center items-center'><GiHamburgerMenu /></button>
-      <div style={{marginLeft:`${sideleftmar}`}} className='pt-10 h-screen min-w-[90vw] fixed z-1  transition-all ease-in-out duration-500   sm:hidden bg-gray-950   justify-center items-start  pl-5 rounded-r-lg flex-col gap-2'>
+      <div style={{marginLeft:`${sideleftmar}`}} className='pt-10 h-screen min-w-[90vw] fixed z-1  transition-all ease-in-out duration-500   sm:hidden bg-gray-950   justify-center items-center  pl-5 rounded-r-lg flex-col gap-2'>
       <Link to='https://yomiyou.onrender.com' className=' flex w-[90%] h-[55px] justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BiArrowBack className='text-orange-400 text-xl' /> Finish Tour</Link>
        <hr className='w-[90%] border-[1px]  border-orange-400'/><br />
         <span className='text-white flex justify-center items-center w-[90%] mb-3 '>Components</span> 
@@ -128,12 +129,9 @@ const Home = () => {
               <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${movable})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>    
-            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
-              <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a background that have individual components that change color when hovered.</div>
-           </div>
+           
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/purplelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${purplesign})` }}></Link>
+              <Link to="/purplelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${snakepic})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>
 
@@ -142,7 +140,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>  
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/switchlogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluetoplogin})` }}></Link>
+              <Link to="/switchlogin" className='w-full h-[70%] bg-cove bg-center bg-no-repeat' style={{ backgroundImage: `url(${bluetoplogin})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>           
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
@@ -246,7 +244,7 @@ const Home = () => {
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
            </div>    
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
-              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${glowimg})` }}></Link>
+              <Link to="/snakelogin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${snakepic})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a background that have individual components that change color when hovered.</div>
            </div>
            <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>

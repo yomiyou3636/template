@@ -123,7 +123,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
         <div className="lear flex justify-start items-end " id="lte"> </div>
         <div className="lear" id="lbe"></div>
     </div>
-        <div className="face sm:h-[90vh] sm:w-[30%] h-[70vh] w-[50%] ">
+        <div className="face sm:h-[90vh] sm:w-[30%] h-[70vh] w-[70%] ">
             <div id="tophair"></div>
          <div id="midhair">
             <div></div>
@@ -138,7 +138,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
             <div id="lashright" style={{ transform: `rotate(${righteyelash})` }}></div>
         </div>
         <div className="eyes">
-            <div className='absolute  flex justify-center items-center  mt-[-2%] sm:w-[30%]  w-[50%] h-[120px]'>
+            <div className='absolute  flex justify-center items-center  sm:mt-[-2%] mt-[-4%] sm:w-[30%]  w-[70%] h-[120px]'>
             <div className='w-[5%]  h-[3px] bg-black'></div>
                 <div className=' w-[40%] h-[90%] rounded-full   border-[3px] border-black'></div>
                 <div className='w-[9%] h-[3px] bg-black'></div>

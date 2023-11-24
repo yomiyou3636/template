@@ -103,13 +103,13 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
       
         <div className='absolute sm:w-[20%] sm:mt-0 mt-[90vh] w-full h-[10vh]  sm:h-screen bg-neutral-900 p-3 sm:flex  justify-center items-center   '>
             <div className='w-full sm:h-[60%]  h-full grid sm:grid-rows-5 sm:grid-cols-1 grid-cols-5 gap-2 '>
-            <div id='blink' onClick={handlenormal} className= ' sm:flex-row flex-col flex justify-center items-center bg-slate-700  text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceMeh className=' text-orange-500 text-[20px] sm:text-[30px]' /> Normal</div>
+            <div id='blink' onClick={handlenormal} className= ' cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700  text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceMeh className=' text-orange-500 text-[20px] sm:text-[30px]' /> Normal</div>
 
-            <div id='blink' onClick={handleAngry} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaAngry className='text-orange-500 text-[20px] sm:text-[30px]' /> Angry</div>
-            <div id='blink' onClick={handlesmile} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[20px] sm:text-[30px]' /> Creepy</div>
+            <div id='blink' onClick={handleAngry} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaAngry className='text-orange-500 text-[20px] sm:text-[30px]' /> Angry</div>
+            <div id='blink' onClick={handlesmile} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSmileBeam className='text-orange-500 text-[20px] sm:text-[30px]' /> Creepy</div>
 
-            <div id='blink' onClick={handlesad} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSadTear className=' text-orange-500 text-[20px] sm:text-[30px]' /> Sad</div>
-            <div id='blink' onClick={handletoung} className= 'sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceGrinTongue className=' text-orange-500 text-[20px] sm:text-[30px]' /> Toung</div>
+            <div id='blink' onClick={handlesad} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaSadTear className=' text-orange-500 text-[20px] sm:text-[30px]' /> Sad</div>
+            <div id='blink' onClick={handletoung} className= 'cursor-pointer sm:flex-row flex-col flex justify-center items-center bg-slate-700 text-white sm:gap-3 sm:text-[20px] text-[15px] rounded-lg'><FaFaceGrinTongue className=' text-orange-500 text-[20px] sm:text-[30px]' /> Toung</div>
           
             </div>
 

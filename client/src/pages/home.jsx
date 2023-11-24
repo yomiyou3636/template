@@ -28,7 +28,7 @@ import avtcard from '../images/avtcard.PNG'
 import human from '../images/human.PNG'  
 import snakepic from '../images/snakelogin.png'  
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import { IoClose } from "react-icons/io5";
 
 const Home = () => {
   const [loginVisible, setLoginVisible] = useState(true);
@@ -37,9 +37,18 @@ const Home = () => {
   const [infoboxVisible, setInfoboxVisible] = useState(false);
   const [content, setcontent] = useState('flex');
   const [sideleftmar, setsideleftmar] = useState('-90%');
+  const [topbtn, settopbtm] = useState(true);
+
+ 
+  
   const handlesidebar=()=>{
-   if(content==='none'){setcontent('flex')}
-   else{setcontent('none')}
+   if(content==='none'){
+      setcontent('flex')
+      settopbtm(true)
+   }
+   else{setcontent('none')
+   settopbtm(false)
+}
 
    if(sideleftmar==='-90%'){setsideleftmar('0%')}
    else{setsideleftmar('-90%')}
@@ -82,7 +91,7 @@ const Home = () => {
 
   return (
     <div  className='w-full sm:h-screen h-[260vh] bg-gray-900    flex overflow-hidden'>
-      <button onClick={handlesidebar}  className='   fixed sm:hidden z-10  bg-orange-500 text-white text-[25px] mt-5 ml-[85vw] w-[35px] h-[35px] rounded-xl flex justify-center items-center'><GiHamburgerMenu /></button>
+      <button onClick={handlesidebar}  className='   fixed sm:hidden z-10  bg-orange-500 text-white text-[25px] mt-3 ml-[85vw] w-[35px] h-[35px] rounded-xl flex justify-center items-center'>{topbtn?<GiHamburgerMenu />:<IoClose />}</button>
       <div style={{marginLeft:`${sideleftmar}`}} className='pt-10 h-screen min-w-[90vw] fixed z-1  transition-all ease-in-out duration-500   sm:hidden bg-gray-950   justify-center items-center  pl-5 rounded-r-lg flex-col gap-2'>
       <Link to='https://yomiyou.onrender.com' className=' flex w-[90%] h-[55px] justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BiArrowBack className='text-orange-400 text-xl' /> Finish Tour</Link>
        <hr className='w-[90%] border-[1px]  border-orange-400'/><br />
@@ -126,8 +135,8 @@ const Home = () => {
         {loginVisible && (
 
          <div className='h-full w-full flex flex-col'>
-         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>LOG IN</div>
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+         <div className=' fixed w-full h-[60px] flex justify-center font-bold items-end   text-white text-[30px] pb-2 bg-slate-900 '>LOG IN</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6 px-6  grid sm:grid-cols-3 sm:grid-rows-2 pt-3 mt-[60px] gap-5  py-8'>
             <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/movingsignin" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${movable})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
@@ -160,8 +169,8 @@ const Home = () => {
 {sidebarVisible && (
    
    <div className='h-full w-full flex flex-col'>
-   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>SIDEBAR</div>
-          <div id="login" className='w-full h-full ms:h-screen  grid grid-col-1 grid-rows-6   sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+         <div className=' fixed w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] pb-2 bg-slate-900 '>SIDEBAR</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 pt-3 mt-[60px] gap-5 px-6 py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/bluesidebar" className='w-full h-[70%] bg-cover bg-start bg-no-repeat' style={{ backgroundImage: `url(${bluesidebar1})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>this is a cool sidebar that widens when hovered. Individual buttons also change color when hovered</div>
@@ -193,8 +202,8 @@ const Home = () => {
         {imageviewVisible && (
          
          <div className='h-full w-full flex flex-col'>
-         <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>WEB ART</div>
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6 gap-5  grid sm:grid-cols-3 sm:grid-rows-2 px-10 py-8'>
+                <div className=' fixed w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] pb-2 bg-slate-900 '>WEB ART</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 pt-3 mt-[60px] gap-5 px-6  py-8'>
              <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/human" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${human})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a login page with a multiple three glowing  ringes that rotate  around the login form .</div>
@@ -215,8 +224,8 @@ const Home = () => {
 {infoboxVisible && (
    
    <div className='h-full w-full flex flex-col'>
-   <div className=' w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] '>CARD</div>
-          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 gap-5 px-10 py-8'>
+         <div className=' fixed w-full h-[60px] flex justify-center font-bold items-end  text-white text-[30px] pb-2 bg-slate-900 '>CARD</div>
+          <div id="login" className='w-full h-full ms:h-screen  grid-col-1 grid-rows-6  grid sm:grid-cols-3 sm:grid-rows-2 pt-3 mt-[60px] gap-5 px-6  py-8'>
               <div className='border-8 border-gray-800 bg-red-700 flex flex-col '>
               <Link to="/bluecard" className='w-full h-[70%] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${avtcard})` }}></Link>
               <div className='w-full h-[30%] bg-slate-800 text-sm p-2 text-slate-200 text-wrap'>This is a way of displaying images in a way that look like scrammbled photos</div>

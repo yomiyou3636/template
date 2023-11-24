@@ -206,7 +206,7 @@ import { FaFaceGrinTongue } from "react-icons/fa6";
         </div>
         </div>
 
-        <div className="earr sm:h-[25ddvh] h-[15ddvh] sm:w-[40px] w-[30px] ">
+        <div className="earr sm:h-[25dvh] h-[15dvh] sm:w-[40px] w-[30px] ">
             <div className="rear" id="rte"></div>
         <div className="rear" id="rbe"></div>
         </div>

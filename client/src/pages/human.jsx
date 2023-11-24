@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import Back from './back'
+
 import {BiArrowBack} from 'react-icons/bi'
 import { FaAngry } from "react-icons/fa";
 import { FaSadTear } from "react-icons/fa";

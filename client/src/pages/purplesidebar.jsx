@@ -39,7 +39,7 @@ const Purplesidebar = () => {
     
     return (
         <><Back />
-        <div className=' overflow-hidden w-full h-screen  bg-indigo-100 '>
+        <div className=' overflow-hidden w-full h-[100dvh] sm:h-screen  bg-indigo-100 '>
             <div className='w-[7%] hidden sm:flex  h-full bg-white   flex-col transition-all ease-out duration-500 justify-start px-3 pt-5 items-center 'id='connnt' >
                 <div className='w-full h-[120px] flex flex-col   gap-3 justify-between pt-3 items-center mb-5'>
                 <div className=' h-[30px] bg-indigo-700 cursor-pointer text-white text-3xl ml-[100%]  flex justify-center items-center w-[30px]  rounded-full p-2 ' onClick={handleclick} >  {(display === 'none' ? <AiOutlineCaretRight /> : <AiOutlineCaretLeft />)}</div>

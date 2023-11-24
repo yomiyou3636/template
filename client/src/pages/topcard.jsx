@@ -13,7 +13,7 @@ function Shadowcard() {
   return (
     <>
     <Back />
-    <div className='w-full sm:h-screen h-[200vh] py-5 sm:py-0 bg-slate-900 flex justify-center items-center'>
+    <div className='w-full sm:h-screen h-[200dvh] py-5 sm:py-0 bg-slate-900 flex justify-center items-center'>
         <div className='sm:w-[60%] w-[90%] h-full sm:h-[65%]  grid gap-4 grid-rows-3 sm:grid-rows-1 sm:grid-cols-3'>
             <div className='bg-white  shadow-lg  flex  overflow-hidden flex-col'>
                 <div className='w-full h-[40%]  bg-cover bg-no-repeat bg-center ' style={{backgroundImage:`url(${south})`}}></div>

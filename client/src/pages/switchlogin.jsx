@@ -5,7 +5,7 @@ import Back from './back'
 const Switchlogin = () => {
     return (
         <> <Back />
-<div className='w-full h-screen bg-slate-200 flex justify-center items-center'>
+<div className='w-full h-[100dvh] sm:h-screen bg-slate-200 flex justify-center items-center'>
     <div className='sm:w-[60%]  sm:h-[90%] w-[90%] h-[80%] rounded-2xl bg-white flex flex-col overflow-hidden'>
         <div className='w-full h-[25%] bg-cover bg-center bg-opacity-25 bg-no-repeat flex justify-center items-center ' style={{background:`url(${peakpx})`}}>
 <h1 className="text-[35px] text-white font-bold">LOGIN</h1>

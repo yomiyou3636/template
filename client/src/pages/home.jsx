@@ -98,7 +98,7 @@ const Home = () => {
   
 
   return (
-    <div  className='w-full sm:h-screen h-[260vh] bg-gray-900    flex overflow-hidden'>
+    <div  className='w-full sm:h-screen h-[260dvh] bg-gray-900    flex overflow-hidden'>
       <button onClick={handlesidebar}  className='   fixed sm:hidden z-10  bg-orange-500 text-white text-[25px] mt-3 ml-[85vw] w-[35px] h-[35px] rounded-xl flex justify-center items-center'>{topbtn?<GiHamburgerMenu />:<IoClose />}</button>
       <div style={{marginLeft:`${sideleftmar}`}} className='pt-10 h-screen min-w-[90vw] fixed z-1  transition-all ease-in-out duration-500   sm:hidden bg-gray-950   justify-center items-center  pl-5 rounded-r-lg flex-col gap-2'>
       <Link to='https://yomiyou.onrender.com' className=' flex w-[90%] h-[55px] justify-start pl-8 items-center text-md gap-6 rounded-lg bg-gray-700 text-white '><BiArrowBack className='text-orange-400 text-xl' /> Finish Tour</Link>

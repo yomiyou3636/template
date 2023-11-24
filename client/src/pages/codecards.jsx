@@ -8,7 +8,7 @@ function Codecards() {
   return (
     <>
     <Back />
-    <div className='w-full sm:h-screen h-[200vh] py-3   bg-slate-900 flex justify-center items-center'>
+    <div className='w-full sm:h-screen h-[200dvh] py-3   bg-slate-900 flex justify-center items-center'>
         <div className='sm:w-[80%] w-[90%] h-[100%] sm:h-[65%] grid grid:rows-4 sm:grid-rows-1   sm:grid-cols-4 gap-6'>
             
             <div className='bg-white rounded-[30px]  p-1 flex   flex-col items-center '>

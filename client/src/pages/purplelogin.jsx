@@ -16,7 +16,7 @@ document.getElementById('sign').style.fontSize='40px'
 
             }
     return (<><Back />
-<div className='h-screen w-full bg-gradient-to-t from-indigo-950 via-indigo-900  to-indigo-950 flex justify-center items-center'>
+<div className='h-[100dvh] sm:h-screen w-full bg-gradient-to-t from-indigo-950 via-indigo-900  to-indigo-950 flex justify-center items-center'>
             <div  className=' overflow-hidden sm:w-[25%] sm:h-[75%] w-[90%] h-[50%]  rounded-lg bg-cover bg-no-repeat bg-center pt-[4%] flex flex-col justify-start items-center' style={{ backgroundImage: `url(${purplebg})` }} >
 
 <h1 className='text-white text-[40px] font-sans font-bold cursor-pointer h-[15%]  transition-all duration-300 ease-in-out 'id='sign' onClick={hendlesignup}>Sign up</h1>

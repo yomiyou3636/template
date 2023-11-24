@@ -6,7 +6,7 @@ import Back from './back';
 const Movingsignin = () => {
     const [marginLeft, setMarginLeft] = useState('0px');
     const [marginRight, setMarginRight] = useState('25%');
-    const [marginTop, setmarginTop] = useState('0vh');
+    const [marginTop, setmarginTop] = useState('0dvh');
     const [leftslider, setsleftlidder]=useState(true)
     const [rightslider, setsrightlidder]=useState(false)
 
@@ -27,12 +27,12 @@ const Movingsignin = () => {
 
     }
     const movebot=()=>{
-        setmarginTop('45vh')
+        setmarginTop('45dvh')
         setsleftlidder(false);
         setsrightlidder(true)
     }
     const movetop=()=>{
-        setmarginTop('0vh')
+        setmarginTop('0dvh')
         setsleftlidder(true);
         setsrightlidder(false)
 
@@ -41,7 +41,7 @@ const Movingsignin = () => {
 
     return (<> <Back className='z-20' />
         <div className=' z-[5] w-full h-screen flex justify-center items-center'> 
-            <div id='jskdfh' className='sm:w-[50%] w-[80%] sm:h-[75%]  h-[90vh]  transition-all  ease-in-out duration-500  shadow-lg flex sm:flex-row flex-col  shadow-gray-700'>
+            <div id='jskdfh' className='sm:w-[50%] w-[80%] sm:h-[75%]  h-[90dvh]  transition-all  ease-in-out duration-500  shadow-lg flex sm:flex-row flex-col  shadow-gray-700'>
                 
                 
             <div id='sign' className='sm:min-w-[50%]  w-full sm:h-full h-[50%] font-sans flex flex-col  items-center    '>
@@ -93,7 +93,7 @@ const Movingsignin = () => {
                          
                          </> ) } 
                </div>
-               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[10]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45vh]  bg-gradient-to-r from-red-500 to-pink-600'>
+               <div id='onee' style={{marginTop:`${ marginTop}` }} className='gap-4 z-[10]  sm:hidden transition-all flex flex-col justify-center items-center ease-in-out duration-300 absolute  w-[80%]  h-[45dvh]  bg-gradient-to-r from-red-500 to-pink-600'>
 
                  { 
                   leftslider && (<>

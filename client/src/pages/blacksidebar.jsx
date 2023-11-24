@@ -51,7 +51,7 @@ setpagebtncolor('white')
   return (
       <>
       <Back />
-    <div className='w-full h-screen flex justify-start'>
+    <div className='w-full h-[100dvh] sm:h-screen flex justify-start'>
       <div id='sidebar' className='w-[85%] sm:w-[25%] transition-all  ease-out duration-500 min-h-screen bg-black overflow-y-scroll flex flex-col justify-start items-center' style={{marginLeft:`${leftmargin}`}}>
         
         <div className=' flex justify-center items-center w-full h-[30%]'>

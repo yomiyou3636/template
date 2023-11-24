@@ -29,27 +29,27 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
          
-          <Route path="/snakelogin" element={<Sankelogin />} />
-          <Route path="/glowlogin" element={<Glowlogin />} />
-          <Route path="/bluesidebar" element={<Sidebarblue />} />
-          <Route path="/imageview" element={<Imageview />} />
-          <Route path="/verimg" element={<Verimg />} />
-          <Route path="/greensidebar" element={<Greensidebar />} />
-          <Route path="/purplelogin" element={<Purplelogin />} />
-          <Route path="/movingsignin" element={<Movingsignin />} />
-          <Route path="/rotatingsignin" element={<Rotatingsignin />} />
-          <Route path="/rotatingsignin" element={<Rotatingsignin />} />
-          <Route path="/switchlogin" element={<Switchlogin />} />
-          <Route path="/purplesidebar" element={<Purplesidebar />} />
-          <Route path="/bluecard" element={<Bluecard />} />
-          <Route path="/blacksidebar" element={<Blacksidebar />} />
-          <Route path="/integratedsidebar" element={<Integratedsidebar />} />
-          <Route path="/inandout" element={<Inandout />} />
-          <Route path="/holecard" element={<Holecard />} />
-          <Route path="/codecards" element={<Codecards />} />
-          <Route path="/cornorcard" element={<Cornorcard />} />
-          <Route path="/shadowcard" element={<Shadowcard />} />
-          <Route path="/topcard" element={<Topcard />} />
+          <Route path="/login2" element={<Sankelogin />} />
+          <Route path="/login4" element={<Glowlogin />} />
+          <Route path="/sidebar1" element={<Sidebarblue />} />
+          <Route path="/imageview1" element={<Imageview />} />
+          <Route path="/imageview2" element={<Verimg />} />
+          <Route path="/sidebar2" element={<Greensidebar />} />
+          <Route path="/login3" element={<Purplelogin />} />
+          <Route path="/login1" element={<Movingsignin />} />
+          <Route path="/login6" element={<Rotatingsignin />} />
+
+          <Route path="/login5" element={<Switchlogin />} />
+          <Route path="/sidebar3" element={<Purplesidebar />} />
+          <Route path="/card1" element={<Bluecard />} />
+          <Route path="/sidebar4" element={<Blacksidebar />} />
+          <Route path="/sidebar5" element={<Integratedsidebar />} />
+          <Route path="/sidebar6" element={<Inandout />} />
+          <Route path="/card2" element={<Holecard />} />
+          <Route path="/card3" element={<Codecards />} />
+          <Route path="/card4" element={<Cornorcard />} />
+          <Route path="/card5" element={<Shadowcard />} />
+          <Route path="/card6" element={<Topcard />} />
           <Route path="/human" element={<Human />} />
        
       </Routes>
